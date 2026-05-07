@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+select,
+textarea,
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+textarea {
+  height: 250px;
+  font-family: monospace;
+}
+
+button {
+  background: #111827;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.result {
+  margin-top: 25px;
+  background: #f1f5f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
